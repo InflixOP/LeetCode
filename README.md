@@ -1,10 +1,6 @@
 # LeetCode
 This repository contains all the solutions of the leetcode problems which I have done in C++ and Java.
 
-# README
-
-## LeetCode
-
 LeetCode is a popular online platform for coding enthusiasts to enhance their skills by solving coding challenges. It offers a vast collection of problems ranging from simple to complex, covering various topics such as algorithms, data structures, databases, and shell scripting. LeetCode is widely used by developers to prepare for technical interviews at top companies.
 
 Visit LeetCode: [LeetCode](https://leetcode.com/)
