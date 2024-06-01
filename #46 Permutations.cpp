@@ -26,3 +26,26 @@ private:
         }
     }
 };
+
+//2nd Method 
+class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        int l=0;
+        int h=nums.size();
+        vector<vector<int>> ans;
+        perm(nums,0,h,ans);
+        return ans;
+    }
+    void perm(vector<int>& nums,int l,int h,vector<vector<int>> &ans){
+        if(l==h){
+            ans.push_back(nums);
+            return;
+        }
+            for(int i=l;i<h;i++){
+                swap(nums[l],nums[i]);
+                perm(nums,l+1,h,ans);
+                swap(nums[l],nums[i]);
+        }
+    }
+};
