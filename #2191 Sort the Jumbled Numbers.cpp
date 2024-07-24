@@ -6,6 +6,7 @@ public:
         long long p=nums[i],q=0,r=0;
         if(p==0){
             ans.push_back({mapping[0],i});
+
             continue;
         }
         while(p>0){
@@ -20,6 +21,7 @@ public:
     int k=0;
     for(auto ele:ans){
         a[k]=nums[ele.second];
+
         k++;
     }   
     return a;
