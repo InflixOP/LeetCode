@@ -1,7 +1,6 @@
 class Solution {
 public:
 typedef long long ll;
-
     ll getPalin(string s)
     {
         ll n=s.size();
