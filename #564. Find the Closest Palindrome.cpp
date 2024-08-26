@@ -10,7 +10,6 @@ typedef long long ll;
         {
             s[r++]=s[l--];
         }
-        
         return stoll(s);
     }
 
