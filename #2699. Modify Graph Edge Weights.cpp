@@ -35,7 +35,6 @@ private:
             priorityQueue.pop();
 
             if (currentDistance > distances[currentNode][run]) continue;
-
             for (auto& neighbor : adjacencyList[currentNode]) {
                 int nextNode = neighbor.first, edgeIndex = neighbor.second;
                 int weight = edges[edgeIndex][2];
