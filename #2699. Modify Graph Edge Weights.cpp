@@ -33,7 +33,6 @@ private:
         while (!priorityQueue.empty()) {
             auto [currentDistance, currentNode] = priorityQueue.top();
             priorityQueue.pop();
-
             if (currentDistance > distances[currentNode][run]) continue;
             for (auto& neighbor : adjacencyList[currentNode]) {
                 int nextNode = neighbor.first, edgeIndex = neighbor.second;
