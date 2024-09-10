@@ -37,7 +37,6 @@ private:
             for (auto& neighbor : adjacencyList[currentNode]) {
                 int nextNode = neighbor.first, edgeIndex = neighbor.second;
                 int weight = edges[edgeIndex][2];
-
                 if (weight == -1) weight = 1; 
 
                 if (run == 1 && edges[edgeIndex][2] == -1) {
